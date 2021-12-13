@@ -1,7 +1,26 @@
-.container{
-    border: 1px solid black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img{
+.wrapper{
+    margin: 20% auto;
+    width: 80%;
+}
+
+.container-1{
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+}
+
+#the-image1{
+    /* by default images are inline element which means it always has a small space below the image so display: block takes care of this space */
     display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* this is used to alignment the selected element with it contents box */
+    object-position: 100%;
 }
