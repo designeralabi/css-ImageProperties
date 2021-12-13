@@ -6,3 +6,4 @@
 - loading = ["eager", "lazy"]
 <!-- Eager is used to make the browser load the image before the user get to the image -->
 <!-- Lazy is used to display the image only when it close to the viewport -->
+- objectFit
