@@ -13,6 +13,7 @@
     border: 1px solid black;
     width: 300px;
     height: 400px;
+    overflow: hidden;
 }
 
 #the-image1{
@@ -23,4 +24,5 @@
     object-fit: cover;
     /* this is used to alignment the selected element with it contents box */
     object-position: 100%;
+    transform: scale(1.4) translate(0, 0) rotate(20deg);
 }
