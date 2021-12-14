@@ -26,3 +26,7 @@
     object-position: 100%;
     transform: scale(1.4) translate(0, 0) rotate(20deg);
 }
+
+#family-kids{
+    clip-path: circle();
+}
